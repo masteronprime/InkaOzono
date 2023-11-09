@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inicio"
+            android:icon="@drawable/inicio_icon"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/Productos"
+            android:icon="@drawable/productos_icon"
+            android:title="Productos" />
+        <item
+            android:id="@+id/Servicios"
+            android:icon="@drawable/servicios_icon"
+            android:title="Servicios" />
+        <item
+            android:id="@+id/Contacto"
+            android:icon="@drawable/contactos_icon"
+            android:title="Contacto" />
+    </group>
+</menu>

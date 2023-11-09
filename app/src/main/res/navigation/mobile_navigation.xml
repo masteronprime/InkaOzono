@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Inicio"
+  >
+
+    <fragment
+        android:id="@+id/Inicio"
+        android:name="com.rayelectronics.inkaozono.ui.inicio.InicioFragment"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/Productos"
+        android:name="com.rayelectronics.inkaozono.ui.productos.ProductosFragment"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/Servicios"
+        android:name="com.rayelectronics.inkaozono.ui.servicios.ServiciosFragment"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/Contacto"
+        android:name="com.rayelectronics.inkaozono.ui.contacto.ContactoFragment"
+        tools:layout="@layout/fragment_contacto" />
+</navigation>
